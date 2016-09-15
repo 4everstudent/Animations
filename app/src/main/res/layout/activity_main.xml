@@ -12,22 +12,11 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/CatWoman"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/batwoman_red"
-        android:onClick="fade"
-        android:visibility="visible" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/deadpool"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:src="@drawable/deadpool_oh"
-        android:alpha="0"
-        android:longClickable="false" />
+        android:src="@drawable/deadpool_small"
+        android:longClickable="false"
+        android:onClick="challenge" />
 </RelativeLayout>
